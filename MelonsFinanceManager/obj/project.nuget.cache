@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "Xfie/F8AiIGzUY84/RhXedS5v7WkGWYlMqpuZbt4W4fZ9dHUYmGLtB4llE0bbGrwYDzfnz/MDDm5c+cpbDsQwg==",
+  "success": true,
+  "projectFilePath": "D:\\prog\\MelonsFinanceManager\\MelonsFinanceManager\\MelonsFinanceManager\\MelonsFinanceManager.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kek\\.nuget\\packages\\materialdesigncolors\\2.0.4-ci97\\materialdesigncolors.2.0.4-ci97.nupkg.sha512",
+    "C:\\Users\\kek\\.nuget\\packages\\materialdesignthemes\\4.3.0-ci97\\materialdesignthemes.4.3.0-ci97.nupkg.sha512",
+    "C:\\Users\\kek\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\kek\\.nuget\\packages\\restsharp\\106.13.0\\restsharp.106.13.0.nupkg.sha512",
+    "C:\\Users\\kek\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\kek\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
+    "C:\\Users\\kek\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
+    "C:\\Users\\kek\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\kek\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\kek\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\kek\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

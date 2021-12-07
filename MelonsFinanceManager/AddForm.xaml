@@ -1,0 +1,60 @@
+﻿<Window x:Class="MelonsFinanceManager.AddForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:DatabaseApp"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:wpf="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="AddForm" Height="450" Width="800">
+    <Grid>
+        <Image Source="D:\prog\MelonsFinanceManager\MelonsFinanceManager\MelonsFinanceManager\background2.jpg" Stretch="Fill" />
+        <Border MinWidth="400" Margin="40,30,40,30" Background="Lavender" CornerRadius="10" Padding="40">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="30" Color="Blue" ShadowDepth="3"/>
+            </Border.Effect>
+            <StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Button Name="ac_button" HorizontalAlignment="Right" Content="Подтвердить выбор" Click="Ac_button_OnClick"/>
+                    <Label Content="                          "/>
+                    <ComboBox x:Name="AddFormSwitchCombobox" Style="{StaticResource MaterialDesignComboBox}">
+                        <ComboBoxItem x:Name="ComboExpense" IsSelected="True">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock>Расходы</TextBlock>
+                            </StackPanel>
+                        </ComboBoxItem>
+                        <ComboBoxItem x:Name="ComboIncome" IsSelected="False">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock>Средства</TextBlock>
+                            </StackPanel>
+                        </ComboBoxItem>
+                    </ComboBox>
+                </StackPanel>
+                <StackPanel Orientation="Vertical">
+                    <Label Content=""/>
+                    <Border Background="Lavender">
+                        <ScrollViewer Margin="0,0,0,0">
+                            <StackPanel Margin="40, 20, 40, 10">
+                                <Label Name = "tb2label" Content="Колличество"/>
+                                <TextBox Name = "tb2" Text=" " Style="{StaticResource MaterialDesignFloatingHintTextBox}" Background="Lavender"  HorizontalAlignment="Stretch" />
+                                <Label Name = "tb3label" Content="Описание"/>
+                                <TextBox Name = "tb3" Text=" " Style="{StaticResource MaterialDesignFloatingHintTextBox}" Background="Lavender"  HorizontalAlignment="Stretch" />
+                                <Label Name = "tb4label" Content="Место"/>
+                                <TextBox Name = "tb4" Text=" " Style="{StaticResource MaterialDesignFloatingHintTextBox}" Background="Lavender"  HorizontalAlignment="Stretch" />
+                                <Label Name = "tb5label" Content="Валюта"/>
+                                <TextBox Name = "tb5" Text=" " Style="{StaticResource MaterialDesignFloatingHintTextBox}" Background="Lavender"  HorizontalAlignment="Stretch" />
+                                <Label Name = "tb6label" Content="Категория"/>
+                                <TextBox Name = "tb6" Text=" " Style="{StaticResource MaterialDesignFloatingHintTextBox}" Background="Lavender"  HorizontalAlignment="Stretch" />
+                            </StackPanel>
+                        </ScrollViewer>
+                    </Border>
+                </StackPanel>
+                <StackPanel>
+                    <Label Content=""/>
+                    <Button Name = "button2" Content="Добавить расходы" Click="_2button_OnClick"/>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
